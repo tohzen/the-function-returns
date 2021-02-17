@@ -1,6 +1,51 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+let greeting = "Hello";
+let sum = 0;
+let prod = 0;
+
+
+function greet (string1) {
+  greeting = greeting + " " + string1;
+
+}
+
+function sumOfTwo (num1, num2) {
+  sum = num1 + num2;
+
+
+}
+
+function multiply (num1, num2, num3) {
+  prod = num1 * num2 * num3;
+
+}
+
+function sayHi (string3) {
+  output = "Hello " + string3  + "!"
+    return output
+};
+
+
+
+function returnWhatISay (string2) {
+  return string2
+  
+}
+
+function divide (num1, num2) {
+  output = num1 / num2 ;
+    return output
+
+}
+
+function remainder (num1, num2) {
+  output = num1 % num2;
+    return output
+  
+}
+
 
 
 
